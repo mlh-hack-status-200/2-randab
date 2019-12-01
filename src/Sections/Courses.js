@@ -43,23 +43,34 @@ const CoursesRight1 = styled.div`
   border-radius: 17px;
   height: 15rem;
   margin-right: 3rem;
+
+  .h3 {
+    margin-top: 3rem;
+    margin-left: -37rem;
+    left: 5rem;
+    font-family: "Raleway";
+    font-size: 1.9rem;
+    font-weight: 900;
+    color: #2f2f2f;
+  }
 `;
-const CoursesRight2 = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-grow: 3;
-  background: linear-gradient(to left, #feada6, #f5efef);
-  border-radius: 17px;
-  height: 15rem;
-`;
+// const CoursesRight2 = styled.div`
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: space-evenly;
+//   flex-grow: 3;
+//   background: linear-gradient(to right, #feada6, #f5efef);
+//   border-radius: 17px;
+//   height: 15rem;
+//   margin-right: 3rem;
+// `;
 
 const WebImage = styled.svg`
   background-image: url(${Web});
   background-repeat: no-repeat;
   height: 5.5rem;
   margin-top: 4.5rem;
-  margin-left: -6rem;
+  margin-left: -15rem;
 `;
 
 const Courses = () => {
@@ -85,13 +96,71 @@ const Courses = () => {
                 <CourseColumn1>
                   <CoursesRight1>
                     <WebImage />
-                    <h3>Web Development</h3>
+                    <h3 className="h3">
+                      Web Development
+                      <p
+                        style={{
+                          fontSize: "1.6rem",
+                          fontWeight: "200",
+                          fontFamily: "Nunito"
+                        }}
+                      >
+                        Learn website building from <br />
+                        scratch using Html, Css, Js
+                      </p>
+                    </h3>
                   </CoursesRight1>
-                  <CoursesRight2></CoursesRight2>
+                  <CoursesRight1>
+                    <WebImage />
+                    <h3 className="h3">
+                      Web Development
+                      <p
+                        style={{
+                          fontSize: "1.6rem",
+                          fontWeight: "200",
+                          fontFamily: "Nunito"
+                        }}
+                      >
+                        Learn website building from <br />
+                        scratch using Html, Css, Js
+                      </p>
+                    </h3>
+                  </CoursesRight1>
                 </CourseColumn1>
+
                 <CourseColumn1>
-                  <CoursesRight1></CoursesRight1>
-                  <CoursesRight2></CoursesRight2>
+                  <CoursesRight1>
+                    <WebImage />
+                    <h3 className="h3">
+                      Web Development
+                      <p
+                        style={{
+                          fontSize: "1.6rem",
+                          fontWeight: "200",
+                          fontFamily: "Nunito"
+                        }}
+                      >
+                        Learn website building from <br />
+                        scratch using Html, Css, Js
+                      </p>
+                    </h3>
+                  </CoursesRight1>
+                  <CoursesRight1>
+                    <WebImage />
+                    <h3 className="h3">
+                      Web Development
+                      <p
+                        style={{
+                          fontSize: "1.6rem",
+                          fontWeight: "200",
+                          fontFamily: "Nunito"
+                        }}
+                      >
+                        Learn website building from <br />
+                        scratch using Html, Css, Js
+                      </p>
+                    </h3>
+                  </CoursesRight1>
                 </CourseColumn1>
               </CoursesRight>
             </CoursesContainer>
