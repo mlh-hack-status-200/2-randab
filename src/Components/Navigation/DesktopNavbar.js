@@ -9,7 +9,7 @@ const NavWrapper = styled.div`
   justify-content: space-between;
   flex-flow: row nowrap;
   align-items: center;
-  padding: 0 12rem;
+  padding: 6px 12rem;
 `;
 
 const MyDesktopNavbar = styled.nav`
@@ -23,9 +23,9 @@ const MyDesktopNavbar = styled.nav`
   z-index: 1000;
 
   .logo {
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: "Raleway", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
   }
 
   .nav_links {

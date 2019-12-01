@@ -7,7 +7,6 @@ const Navbar = () => {
   return (
     <>
       <DesktopNavbar />
-      {/* <MobileNavbar /> */}
     </>
   );
 };

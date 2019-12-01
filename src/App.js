@@ -1,10 +1,13 @@
 import React from "react";
-import Navbar from "./Components/Navbar";
+import Layout from "./Layout/Layout";
+import Hero from "./Sections/Hero";
 
 const App = () => {
   return (
     <div>
-      <Navbar></Navbar>
+      <Layout>
+        <Hero />
+      </Layout>
     </div>
   );
 };
