@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 import { BrowserRouter } from "react-router-dom";
+import Button from "../Buttons/Button";
 
 const NavWrapper = styled.div`
   display: flex;
@@ -62,23 +63,25 @@ const DesktopNavbar = () => {
           <ul className="nav_links">
             <li>
               <Link to="/" className="Link">
-                HOME
-              </Link>
-            </li>
-            <li>
-              <Link to="/about" className="Link">
-                ABOUT ME
-              </Link>
-            </li>
-            <li>
-              <Link to="/portfolio" className="Link">
-                PORTFOLIO
+                ABOUT
               </Link>
             </li>
             <li>
               <Link to="/contact" className="Link">
                 CONTACT
               </Link>
+            </li>
+
+            <li>
+              <Button
+                style={{
+                  color: "peachpuff",
+                  dropShadow: "none",
+                  marginTop: "0"
+                }}
+              >
+                Get Started
+              </Button>
             </li>
           </ul>
         </BrowserRouter>
